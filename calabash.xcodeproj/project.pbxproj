@@ -104,8 +104,6 @@
 		F537397418E52014004133FA /* LPVersionRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = B153F55A15949F3D00867E12 /* LPVersionRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F537398D18E5253B004133FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B121E79714B6D9FB0034C6A9 /* Foundation.framework */; };
 		F537399B18E6E0BE004133FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F537399918E6E0BE004133FA /* main.m */; };
-		F55D412418C9130100813F78 /* LPKeychainRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F55D412118C9130100813F78 /* LPKeychainRoute.m */; };
-		F55D412518C9130100813F78 /* LPKeychainRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F55D412118C9130100813F78 /* LPKeychainRoute.m */; };
 		F58219FA18C4E27400293508 /* LPWebQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B1914DB8159C228500CB928D /* LPWebQuery.m */; settings = {COMPILER_FLAGS = "-Wno-unreachable-code"; }; };
 		F58219FB18C4E27400293508 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B184FD9114B6DB2B002A744C /* GCDAsyncSocket.m */; };
 		F58219FC18C4E27400293508 /* LPHTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B116C9B314E6565500663205 /* LPHTTPAuthenticationRequest.m */; };
@@ -198,10 +196,8 @@
 		F59C5D0718E0C1F30087B51D /* LPHTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B116C9A414E6564200663205 /* LPHTTPFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5B27B9118C5884D0049B5FF /* CalabashServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B184FD8714B6DAE1002A744C /* CalabashServer.m */; };
 		F5B27B9218C5884E0049B5FF /* CalabashServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B184FD8714B6DAE1002A744C /* CalabashServer.m */; };
-		F5E2D1E018C9120E00A0D9B6 /* LPSSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2D1DA18C9120E00A0D9B6 /* LPSSKeychain.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F5E2D1E118C9120E00A0D9B6 /* LPSSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2D1DA18C9120E00A0D9B6 /* LPSSKeychain.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F5E2D1E418C9120E00A0D9B6 /* LPSSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2D1DC18C9120E00A0D9B6 /* LPSSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		F5E2D1E518C9120E00A0D9B6 /* LPSSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2D1DC18C9120E00A0D9B6 /* LPSSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F5C3B0AD1969E02500E8DEB2 /* LPCORSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B1059F0518C546EB005A0262 /* LPCORSResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5C3B0AE1969E02B00E8DEB2 /* LPCORSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B1059F0518C546EB005A0262 /* LPCORSResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5F53D6A18C619CB00BD9731 /* LPCORSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B1059F0418C546EB005A0262 /* LPCORSResponse.m */; };
 		F5F53D6B18C619CB00BD9731 /* LPCORSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B1059F0418C546EB005A0262 /* LPCORSResponse.m */; };
 /* End PBXBuildFile section */
@@ -399,8 +395,6 @@
 		F537399918E6E0BE004133FA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F55A350F17CF8F8F0001E8B4 /* LPDatePickerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPDatePickerOperation.h; sourceTree = "<group>"; };
 		F55A351017CF8F8F0001E8B4 /* LPDatePickerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPDatePickerOperation.m; sourceTree = "<group>"; };
-		F55D412018C9130100813F78 /* LPKeychainRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPKeychainRoute.h; sourceTree = "<group>"; };
-		F55D412118C9130100813F78 /* LPKeychainRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPKeychainRoute.m; sourceTree = "<group>"; };
 		F5821A6418C4E27400293508 /* libcalabash-simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcalabash-simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58B6DE8186847F70042191C /* gitversioning-after.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gitversioning-after.sh"; sourceTree = "<group>"; };
 		F58B6DE9186847F70042191C /* gitversioning-before.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gitversioning-before.sh"; sourceTree = "<group>"; };
@@ -412,11 +406,6 @@
 		F5C3A62E18A2EA0800DB7E42 /* LPCollectionViewScrollToItemOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCollectionViewScrollToItemOperation.m; sourceTree = "<group>"; tabWidth = 4; };
 		F5CAC06A180D499600E23F03 /* LPSliderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSliderOperation.h; sourceTree = "<group>"; };
 		F5CAC06B180D499600E23F03 /* LPSliderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSliderOperation.m; sourceTree = "<group>"; };
-		F5E2D1D918C9120E00A0D9B6 /* LPSSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSSKeychain.h; sourceTree = "<group>"; };
-		F5E2D1DA18C9120E00A0D9B6 /* LPSSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSSKeychain.m; sourceTree = "<group>"; };
-		F5E2D1DB18C9120E00A0D9B6 /* LPSSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSSKeychainQuery.h; sourceTree = "<group>"; };
-		F5E2D1DC18C9120E00A0D9B6 /* LPSSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSSKeychainQuery.m; sourceTree = "<group>"; };
-		F5E2D1DD18C9120E00A0D9B6 /* SSKeychain.LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SSKeychain.LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -560,7 +549,6 @@
 		B184FD8514B6DACA002A744C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F5E2D1D818C9120E00A0D9B6 /* SSKeychain */,
 				B1FF22B115CF002500F3A17B /* MapKit */,
 				B184FD8F14B6DB2B002A744C /* CocoaAsyncSocket */,
 				B184FD9214B6DB2B002A744C /* CocoaHttpServer */,
@@ -672,8 +660,6 @@
 		B184FDD014B6DB2B002A744C /* Routes */ = {
 			isa = PBXGroup;
 			children = (
-				F55D412018C9130100813F78 /* LPKeychainRoute.h */,
-				F55D412118C9130100813F78 /* LPKeychainRoute.m */,
 				B12DCD86189A998400F8DF87 /* LPDebugRoute.h */,
 				B12DCD84189A997B00F8DF87 /* LPDebugRoute.m */,
 				B1EBF08416EE63A000AE4D40 /* LPAppPropertyRoute.h */,
@@ -843,18 +829,6 @@
 			path = "calabash-version";
 			sourceTree = "<group>";
 		};
-		F5E2D1D818C9120E00A0D9B6 /* SSKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				F5E2D1D918C9120E00A0D9B6 /* LPSSKeychain.h */,
-				F5E2D1DA18C9120E00A0D9B6 /* LPSSKeychain.m */,
-				F5E2D1DB18C9120E00A0D9B6 /* LPSSKeychainQuery.h */,
-				F5E2D1DC18C9120E00A0D9B6 /* LPSSKeychainQuery.m */,
-				F5E2D1DD18C9120E00A0D9B6 /* SSKeychain.LICENSE */,
-			);
-			path = SSKeychain;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -871,6 +845,7 @@
 				F59C5CFC18E0BBAE0087B51D /* LPHTTPDataResponse.h in Headers */,
 				F59C5CFD18E0BBAE0087B51D /* LPHTTPDynamicFileResponse.h in Headers */,
 				F59C5CFE18E0BBAE0087B51D /* LPHTTPFileResponse.h in Headers */,
+				F5C3B0AD1969E02500E8DEB2 /* LPCORSResponse.h in Headers */,
 				F537397418E52014004133FA /* LPVersionRoute.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -888,6 +863,7 @@
 				F59C5D0418E0C1E60087B51D /* LPHTTPAsyncFileResponse.h in Headers */,
 				F59C5D0618E0C1EF0087B51D /* LPHTTPDynamicFileResponse.h in Headers */,
 				F59C5D0718E0C1F30087B51D /* LPHTTPFileResponse.h in Headers */,
+				F5C3B0AE1969E02B00E8DEB2 /* LPCORSResponse.h in Headers */,
 				F537397318E5200C004133FA /* LPVersionRoute.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1061,7 +1037,6 @@
 				F5091BE518C4E1D700C85307 /* LPHTTPAsyncFileResponse.m in Sources */,
 				F5091BE618C4E1D700C85307 /* LPHTTPDataResponse.m in Sources */,
 				F5091BE718C4E1D700C85307 /* LPHTTPDynamicFileResponse.m in Sources */,
-				F5E2D1E418C9120E00A0D9B6 /* LPSSKeychainQuery.m in Sources */,
 				F5091BE818C4E1D700C85307 /* LPCollectionViewScrollToItemWithMarkOperation.m in Sources */,
 				F5091BE918C4E1D700C85307 /* LPHTTPFileResponse.m in Sources */,
 				F5091BEA18C4E1D700C85307 /* LPHTTPRedirectResponse.m in Sources */,
@@ -1106,10 +1081,8 @@
 				F5091C0F18C4E1D700C85307 /* UIScriptASTLast.m in Sources */,
 				F5091C1018C4E1D700C85307 /* LPEnv.m in Sources */,
 				F5091C1118C4E1D700C85307 /* UIScriptASTWith.m in Sources */,
-				F5E2D1E018C9120E00A0D9B6 /* LPSSKeychain.m in Sources */,
 				F5091C1218C4E1D700C85307 /* UIScriptParser.m in Sources */,
 				F5091C1318C4E1D700C85307 /* LPJSONUtils.m in Sources */,
-				F55D412418C9130100813F78 /* LPKeychainRoute.m in Sources */,
 				F5091C1418C4E1D700C85307 /* LPTouchUtils.m in Sources */,
 				F5091C1518C4E1D700C85307 /* LPCDataScanner.m in Sources */,
 				F5091C1718C4E1D700C85307 /* LPI.mm in Sources */,
@@ -1155,7 +1128,6 @@
 				F5821A0318C4E27400293508 /* LPHTTPAsyncFileResponse.m in Sources */,
 				F5821A0418C4E27400293508 /* LPHTTPDataResponse.m in Sources */,
 				F5821A0518C4E27400293508 /* LPHTTPDynamicFileResponse.m in Sources */,
-				F5E2D1E518C9120E00A0D9B6 /* LPSSKeychainQuery.m in Sources */,
 				F5821A0618C4E27400293508 /* LPCollectionViewScrollToItemWithMarkOperation.m in Sources */,
 				F5821A0718C4E27400293508 /* LPHTTPFileResponse.m in Sources */,
 				F5821A0818C4E27400293508 /* LPHTTPRedirectResponse.m in Sources */,
@@ -1200,10 +1172,8 @@
 				F5821A2D18C4E27400293508 /* UIScriptASTLast.m in Sources */,
 				F5821A2E18C4E27400293508 /* LPEnv.m in Sources */,
 				F5821A2F18C4E27400293508 /* UIScriptASTWith.m in Sources */,
-				F5E2D1E118C9120E00A0D9B6 /* LPSSKeychain.m in Sources */,
 				F5821A3018C4E27400293508 /* UIScriptParser.m in Sources */,
 				F5821A3118C4E27400293508 /* LPJSONUtils.m in Sources */,
-				F55D412518C9130100813F78 /* LPKeychainRoute.m in Sources */,
 				F5821A3218C4E27400293508 /* LPTouchUtils.m in Sources */,
 				F5821A3318C4E27400293508 /* LPCDataScanner.m in Sources */,
 				F5821A3518C4E27400293508 /* LPI.mm in Sources */,
@@ -1597,6 +1567,7 @@
 				F537399618E5253B004133FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5821A6118C4E27400293508 /* Build configuration list for PBXNativeTarget "calabash-simulator" */ = {
 			isa = XCConfigurationList;

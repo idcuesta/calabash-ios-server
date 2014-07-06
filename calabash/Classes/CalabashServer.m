@@ -12,7 +12,6 @@
 #import "LPRecordRoute.h"
 #import "LPAsyncPlaybackRoute.h"
 #import "LPUserPrefRoute.h"
-#import "LPKeychainRoute.h"
 #import "LPAppPropertyRoute.h"
 #import "LPQueryLogRoute.h"
 #import "LPInterpolateRoute.h"
@@ -68,10 +67,6 @@
     LPUserPrefRoute *bgr = [LPUserPrefRoute new];
     [LPRouter addRoute:bgr forPath:@"userprefs"];
     [bgr release];
-
-    LPKeychainRoute *keyr = [LPKeychainRoute new];
-    [LPRouter addRoute:keyr forPath:@"keychain"];
-    [keyr release];
 
     LPAppPropertyRoute *appr = [LPAppPropertyRoute new];
     [LPRouter addRoute:appr forPath:@"appproperty"];
